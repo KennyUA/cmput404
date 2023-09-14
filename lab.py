@@ -1,3 +1,4 @@
 import requests
 print(requests.__version__)
-print(requests.get("http://www.google.com"))
+text=requests.get("https://raw.githubusercontent.com/KennyUA/cmput404/master/lab.py")
+print(text.text)
